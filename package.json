@@ -1,0 +1,22 @@
+{
+  "name": "central-governor",
+  "version": "0.0.1",
+  "description": "CentralGovernor is a service for other services to use to fetch settings such as port. Used via REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Aki Mäkinen",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "expressopot": "0.0.6",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
